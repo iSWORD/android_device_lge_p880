@@ -6,7 +6,10 @@ bin/rild
 bin/tf_daemon
 lib/hw/camera.tegra.so
 lib/hw/gps.tegra.so
+<<<<<<< HEAD
 lib/hw/lights.x3.so
+=======
+>>>>>>> 98de85d... Custom lights library (thx @mzhou)
 lib/hw/sensors.tegra.so
 lib/hw/audio_policy.tegra.so
 lib/hw/audio.primary.tegra.so
