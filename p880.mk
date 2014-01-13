@@ -99,6 +99,10 @@ PRODUCT_PACKAGES += \
     charger \
     charger_res_images
 
+#lights
+PRODUCT PACKAGES += \
+	lights.x3
+
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     com.android.future.usb.accessory
