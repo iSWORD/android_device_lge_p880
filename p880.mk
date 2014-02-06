@@ -97,10 +97,7 @@ PRODUCT_COPY_FILES += \
 # Charger mode
 PRODUCT_PACKAGES += \
     charger \
-    charger_res_images
-
-#lights
-PRODUCT PACKAGES += \
+    charger_res_images \
 	lights.x3
 
 PRODUCT_PACKAGES += \
