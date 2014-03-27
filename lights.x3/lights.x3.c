@@ -108,7 +108,6 @@ set_light_battery(struct light_device_t *dev,
 	if (g_battery_on == 1){
  		write_int(BUTTONS_FILE,g_battery_on);
 		g_battery_on = 0;
- 		sleep(2);
  		return write_int(BUTTONS_FILE,g_battery_on);
 	}
 	else{
